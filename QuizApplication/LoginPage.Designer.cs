@@ -36,11 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "LoginPage";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.LoginPage_Load);
-            this.ResumeLayout(false);
-
         }
 
         #endregion
