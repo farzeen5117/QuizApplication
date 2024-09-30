@@ -31,5 +31,11 @@ namespace QuizApplication
         {
 
         }
+
+        private void btnStudentQuizView_Click(object sender, EventArgs e)
+        {
+            StudentQuizView sqv = new StudentQuizView();   
+            sqv.Show();
+        }
     }
 }
