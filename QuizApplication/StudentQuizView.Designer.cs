@@ -1,6 +1,6 @@
 ﻿namespace QuizApplication
 {
-    partial class LoginPage
+    partial class StudentQuizView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnHomePage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnHomePage
-            // 
-            this.btnHomePage.Location = new System.Drawing.Point(315, 267);
-            this.btnHomePage.Name = "btnHomePage";
-            this.btnHomePage.Size = new System.Drawing.Size(181, 73);
-            this.btnHomePage.TabIndex = 0;
-            this.btnHomePage.Text = "Home Page";
-            this.btnHomePage.UseVisualStyleBackColor = true;
-            this.btnHomePage.Click += new System.EventHandler(this.btnQuizView_Click);
-            // 
-            // LoginPage
+            // StudentQuizView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnHomePage);
-            this.Name = "LoginPage";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(686, 411);
+            this.Name = "StudentQuizView";
+            this.Text = "Student Quiz View";
+            this.Load += new System.EventHandler(this.StudentQuizView_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnHomePage;
     }
 }
-

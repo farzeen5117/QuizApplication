@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace QuizApplication
 {
-    public partial class LoginPage : Form
+    public partial class StudentQuizView : Form
     {
-        public LoginPage()
+        public StudentQuizView()
         {
             InitializeComponent();
         }
 
-        private void LoginPage_Load(object sender, EventArgs e)
+        private void StudentQuizView_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnQuizView_Click(object sender, EventArgs e)
-        {
-            Home home = new Home();
-            home.Show();
+            this.CenterToScreen();
         }
     }
 }

@@ -32,7 +32,7 @@
             this.btnCreateNewQuiz = new System.Windows.Forms.Button();
             this.btnViewExistingQuizzes = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnStudentQuizView = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTeacherActions
@@ -77,15 +77,16 @@
             this.button2.Text = "View Existing Quizzes";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnStudentQuizView
             // 
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button3.Location = new System.Drawing.Point(306, 292);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(228, 110);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Select Quiz To Take";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnStudentQuizView.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnStudentQuizView.Location = new System.Drawing.Point(306, 292);
+            this.btnStudentQuizView.Name = "btnStudentQuizView";
+            this.btnStudentQuizView.Size = new System.Drawing.Size(228, 110);
+            this.btnStudentQuizView.TabIndex = 4;
+            this.btnStudentQuizView.Text = "Select Quiz To Take";
+            this.btnStudentQuizView.UseVisualStyleBackColor = true;
+            this.btnStudentQuizView.Click += new System.EventHandler(this.btnStudentQuizView_Click);
             // 
             // Home
             // 
@@ -93,7 +94,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnStudentQuizView);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnViewExistingQuizzes);
             this.Controls.Add(this.btnCreateNewQuiz);
@@ -111,6 +112,6 @@
         private System.Windows.Forms.Button btnCreateNewQuiz;
         private System.Windows.Forms.Button btnViewExistingQuizzes;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnStudentQuizView;
     }
 }
