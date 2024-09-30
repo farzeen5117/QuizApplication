@@ -37,5 +37,10 @@ namespace QuizApplication
             StudentQuizView sqv = new StudentQuizView();   
             sqv.Show();
         }
+
+        private void btnViewStudentResultsOverTime_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
