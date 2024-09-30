@@ -24,7 +24,8 @@ namespace QuizApplication
 
         private void btnCreateNewQuiz_Click(object sender, EventArgs e)
         {
-
+            CreateNewQuiz cnq = new CreateNewQuiz();
+            cnq.Show();
         }
 
         private void btnViewExistingQuizzes_Click(object sender, EventArgs e)
