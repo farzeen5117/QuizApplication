@@ -19,17 +19,20 @@ namespace QuizApplication
 
         private void btnQuiz1_Click(object sender, EventArgs e)
         {
-
+            StudentQuizView sqv = new StudentQuizView();
+            sqv.Show();
         }
 
         private void btnQuiz2_Click(object sender, EventArgs e)
         {
-
+            StudentQuizView sqv = new StudentQuizView();
+            sqv.Show();
         }
 
         private void btnQuiz3_Click(object sender, EventArgs e)
         {
-
+            StudentQuizView sqv = new StudentQuizView();
+            sqv.Show();
         }
     }
 }

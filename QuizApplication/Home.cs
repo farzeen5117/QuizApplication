@@ -35,8 +35,8 @@ namespace QuizApplication
 
         private void btnStudentQuizView_Click(object sender, EventArgs e)
         {
-            StudentQuizView sqv = new StudentQuizView();   
-            sqv.Show();
+            SelectQuiz sq = new SelectQuiz();   
+            sq.Show();
         }
 
         private void btnViewStudentResultsOverTime_Click(object sender, EventArgs e)
