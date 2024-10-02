@@ -1,6 +1,6 @@
 ﻿namespace QuizApplication
 {
-    partial class LoginPage
+    partial class StudentQuizView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // StudentQuizView
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "LoginPage";
+            this.ClientSize = new System.Drawing.Size(686, 411);
+            this.Name = "StudentQuizView";
+            this.Text = "Student Quiz View";
+            this.Load += new System.EventHandler(this.StudentQuizView_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
