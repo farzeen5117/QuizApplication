@@ -16,5 +16,10 @@ namespace QuizApplication
         {
             InitializeComponent();
         }
+
+        private void rdbtnMCQ_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
