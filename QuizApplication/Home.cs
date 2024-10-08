@@ -30,7 +30,8 @@ namespace QuizApplication
 
         private void btnViewExistingQuizzes_Click(object sender, EventArgs e)
         {
-
+            ViewExistingQuizzes veq = new ViewExistingQuizzes();
+            veq.Show();
         }
 
         private void btnStudentQuizView_Click(object sender, EventArgs e)

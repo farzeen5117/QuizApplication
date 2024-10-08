@@ -81,6 +81,12 @@
     <Compile Include="StudentQuizView.Designer.cs">
       <DependentUpon>StudentQuizView.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewExistingQuizzes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewExistingQuizzes.Designer.cs">
+      <DependentUpon>ViewExistingQuizzes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CreateNewQuiz.resx">
       <DependentUpon>CreateNewQuiz.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StudentQuizView.resx">
       <DependentUpon>StudentQuizView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewExistingQuizzes.resx">
+      <DependentUpon>ViewExistingQuizzes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
