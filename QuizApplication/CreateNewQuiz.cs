@@ -21,5 +21,12 @@ namespace QuizApplication
         {
 
         }
+
+        private void btnCNQBackHome_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Home home = new Home();
+            home.Show();
+        }
     }
 }

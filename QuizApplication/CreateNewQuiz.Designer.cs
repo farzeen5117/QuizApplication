@@ -65,6 +65,7 @@
             this.btnCNQBackHome.TabIndex = 0;
             this.btnCNQBackHome.Text = "Back to Home";
             this.btnCNQBackHome.UseVisualStyleBackColor = false;
+            this.btnCNQBackHome.Click += new System.EventHandler(this.btnCNQBackHome_Click);
             // 
             // lblCNQ
             // 
