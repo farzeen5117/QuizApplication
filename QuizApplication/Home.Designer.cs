@@ -30,10 +30,10 @@
         {
             this.lblTeacherActions = new System.Windows.Forms.Label();
             this.btnCreateNewQuiz = new System.Windows.Forms.Button();
-            this.btnViewExistingQuizzes = new System.Windows.Forms.Button();
-            this.btnViewStudentResultsOverTime = new System.Windows.Forms.Button();
             this.btnStudentQuizView = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnViewStudentResultsOverTime = new System.Windows.Forms.Button();
+            this.btnViewExistingQuizzes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTeacherActions
@@ -58,30 +58,6 @@
             this.btnCreateNewQuiz.UseVisualStyleBackColor = false;
             this.btnCreateNewQuiz.Click += new System.EventHandler(this.btnCreateNewQuiz_Click);
             // 
-            // btnViewExistingQuizzes
-            // 
-            this.btnViewExistingQuizzes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(197)))), ((int)(((byte)(232)))));
-            this.btnViewExistingQuizzes.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnViewExistingQuizzes.Location = new System.Drawing.Point(306, 85);
-            this.btnViewExistingQuizzes.Name = "btnViewExistingQuizzes";
-            this.btnViewExistingQuizzes.Size = new System.Drawing.Size(228, 110);
-            this.btnViewExistingQuizzes.TabIndex = 2;
-            this.btnViewExistingQuizzes.Text = "View Existing Quizzes";
-            this.btnViewExistingQuizzes.UseVisualStyleBackColor = false;
-            this.btnViewExistingQuizzes.Click += new System.EventHandler(this.btnViewExistingQuizzes_Click);
-            // 
-            // btnViewStudentResultsOverTime
-            // 
-            this.btnViewStudentResultsOverTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(197)))), ((int)(((byte)(232)))));
-            this.btnViewStudentResultsOverTime.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnViewStudentResultsOverTime.Location = new System.Drawing.Point(560, 85);
-            this.btnViewStudentResultsOverTime.Name = "btnViewStudentResultsOverTime";
-            this.btnViewStudentResultsOverTime.Size = new System.Drawing.Size(228, 110);
-            this.btnViewStudentResultsOverTime.TabIndex = 3;
-            this.btnViewStudentResultsOverTime.Text = "View Student Results Over Time";
-            this.btnViewStudentResultsOverTime.UseVisualStyleBackColor = false;
-            this.btnViewStudentResultsOverTime.Click += new System.EventHandler(this.btnViewStudentResultsOverTime_Click);
-            // 
             // btnStudentQuizView
             // 
             this.btnStudentQuizView.BackColor = System.Drawing.Color.LightCoral;
@@ -102,6 +78,30 @@
             this.label1.Size = new System.Drawing.Size(85, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "Student Actions:";
+            // 
+            // btnViewStudentResultsOverTime
+            // 
+            this.btnViewStudentResultsOverTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(197)))), ((int)(((byte)(232)))));
+            this.btnViewStudentResultsOverTime.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnViewStudentResultsOverTime.Location = new System.Drawing.Point(560, 85);
+            this.btnViewStudentResultsOverTime.Name = "btnViewStudentResultsOverTime";
+            this.btnViewStudentResultsOverTime.Size = new System.Drawing.Size(228, 110);
+            this.btnViewStudentResultsOverTime.TabIndex = 3;
+            this.btnViewStudentResultsOverTime.Text = "View Student Results Over Time";
+            this.btnViewStudentResultsOverTime.UseVisualStyleBackColor = false;
+            this.btnViewStudentResultsOverTime.Click += new System.EventHandler(this.btnViewStudentResultsOverTime_Click);
+            // 
+            // btnViewExistingQuizzes
+            // 
+            this.btnViewExistingQuizzes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(197)))), ((int)(((byte)(232)))));
+            this.btnViewExistingQuizzes.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnViewExistingQuizzes.Location = new System.Drawing.Point(306, 85);
+            this.btnViewExistingQuizzes.Name = "btnViewExistingQuizzes";
+            this.btnViewExistingQuizzes.Size = new System.Drawing.Size(228, 110);
+            this.btnViewExistingQuizzes.TabIndex = 2;
+            this.btnViewExistingQuizzes.Text = "View Existing Quizzes";
+            this.btnViewExistingQuizzes.UseVisualStyleBackColor = false;
+            this.btnViewExistingQuizzes.Click += new System.EventHandler(this.btnViewExistingQuizzes_Click);
             // 
             // Home
             // 
@@ -126,9 +126,9 @@
 
         private System.Windows.Forms.Label lblTeacherActions;
         private System.Windows.Forms.Button btnCreateNewQuiz;
-        private System.Windows.Forms.Button btnViewExistingQuizzes;
-        private System.Windows.Forms.Button btnViewStudentResultsOverTime;
         private System.Windows.Forms.Button btnStudentQuizView;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnViewStudentResultsOverTime;
+        private System.Windows.Forms.Button btnViewExistingQuizzes;
     }
 }
