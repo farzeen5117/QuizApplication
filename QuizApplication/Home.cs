@@ -24,12 +24,14 @@ namespace QuizApplication
 
         private void btnViewExistingQuizzes_Click(object sender, EventArgs e)
         {
+            this.Close();
             ViewExistingQuizzes veq = new ViewExistingQuizzes();
             veq.Show();
         }
 
         private void btnStudentQuizView_Click(object sender, EventArgs e)
         {
+            this.Close();
             SelectQuiz sq = new SelectQuiz();   
             sq.Show();
         }
