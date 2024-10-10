@@ -38,11 +38,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -165,18 +162,6 @@
             this.label8.Text = "                           \r\n     ";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.LemonChiffon;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label10.Location = new System.Drawing.Point(361, 310);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 19);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Edit Quiz";
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -186,18 +171,6 @@
             this.label13.TabIndex = 14;
             this.label13.Text = "Average Score: 72.5%;\r\n\r\nMost Missed Question: #3;\r\n\r\nStudent with Lowest Grade: " +
     "John Doe;";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.LemonChiffon;
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label14.Location = new System.Drawing.Point(513, 129);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(98, 19);
-            this.label14.TabIndex = 15;
-            this.label14.Text = "See More Info";
             // 
             // label12
             // 
@@ -209,29 +182,14 @@
             this.label12.Text = "Average Score: 92.0%;\r\n\r\nMost Missed Question: #3;\r\n\r\nStudent with Lowest Grade: " +
     "Jane Doe;";
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.LemonChiffon;
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label15.Location = new System.Drawing.Point(513, 222);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(98, 19);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "See More Info";
-            // 
             // ViewExistingQuizzes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label15);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
@@ -261,10 +219,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label15;
     }
 }
