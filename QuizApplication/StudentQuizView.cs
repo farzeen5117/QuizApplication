@@ -21,5 +21,12 @@ namespace QuizApplication
         {
             this.CenterToScreen();
         }
+
+        private void BitTextbox_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home home = new Home();
+            home.Show();
+        }
     }
 }
