@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -41,12 +42,23 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Name:";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.button1.Location = new System.Drawing.Point(701, 58);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 39);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Submit Quiz";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // StudentQuizView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(899, 470);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "StudentQuizView";
             this.Text = "Student Quiz View";
@@ -59,5 +71,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
