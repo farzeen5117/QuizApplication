@@ -102,7 +102,7 @@
             this.Controls.Add(this.btnCreateNewQuiz);
             this.Controls.Add(this.lblTeacherActions);
             this.Name = "Home";
-            this.Text = "sddsa";
+            this.Text = "Home";
             this.ResumeLayout(false);
             this.PerformLayout();
 
