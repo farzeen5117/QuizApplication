@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuizApplication
@@ -24,18 +17,21 @@ namespace QuizApplication
 
         private void btnCreateNewQuiz_Click(object sender, EventArgs e)
         {
+            this.Close();
             CreateNewQuiz cnq = new CreateNewQuiz();
             cnq.Show();
         }
 
         private void btnViewExistingQuizzes_Click(object sender, EventArgs e)
         {
+            this.Close();
             ViewExistingQuizzes veq = new ViewExistingQuizzes();
             veq.Show();
         }
 
         private void btnStudentQuizView_Click(object sender, EventArgs e)
         {
+            this.Close();
             SelectQuiz sq = new SelectQuiz();   
             sq.Show();
         }

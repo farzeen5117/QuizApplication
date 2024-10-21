@@ -19,6 +19,7 @@ namespace QuizApplication
 
         private void btnBackToHome_Click(object sender, EventArgs e)
         {
+            this.Close();
             Home hp = new Home();
             hp.Show();
         }

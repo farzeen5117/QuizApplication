@@ -21,5 +21,20 @@ namespace QuizApplication
         {
             this.CenterToScreen();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home Sp1 = new Home();
+            Sp1.Show();
+
+        }
     }
 }

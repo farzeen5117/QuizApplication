@@ -41,7 +41,7 @@
             // btnHomePage
             // 
             this.btnHomePage.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnHomePage.Location = new System.Drawing.Point(174, 192);
+            this.btnHomePage.Location = new System.Drawing.Point(207, 194);
             this.btnHomePage.Name = "btnHomePage";
             this.btnHomePage.Size = new System.Drawing.Size(100, 46);
             this.btnHomePage.TabIndex = 0;
