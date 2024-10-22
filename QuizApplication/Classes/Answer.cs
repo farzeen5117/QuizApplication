@@ -8,7 +8,8 @@ namespace QuizApplication
 {
     class Answer
     {
+        public String text;
         public answerChoice answerChoice;
-        public
+        public Boolean isCorrect = false;
     }
 }

@@ -9,6 +9,7 @@ namespace QuizApplication
     public class Quiz
     {
         public string title;
-        public Question[] questions;
+        public Queue<Question> questions;
+
     }
 }
