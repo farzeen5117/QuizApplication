@@ -112,6 +112,7 @@
             this.txtMCQOpA.Size = new System.Drawing.Size(154, 20);
             this.txtMCQOpA.TabIndex = 5;
             this.txtMCQOpA.Text = "A) Type Option Here";
+            this.txtMCQOpA.TextChanged += new System.EventHandler(this.txtMCQOpA_TextChanged);
             // 
             // txtMQOpB
             // 
@@ -160,6 +161,7 @@
             this.rdbtnFRQ.TabIndex = 16;
             this.rdbtnFRQ.TabStop = true;
             this.rdbtnFRQ.UseVisualStyleBackColor = true;
+            this.rdbtnFRQ.CheckedChanged += new System.EventHandler(this.rdbtnFRQ_CheckedChanged);
             // 
             // txtFRQOpD
             // 
@@ -305,6 +307,7 @@
             this.btnCNQSave.TabIndex = 25;
             this.btnCNQSave.Text = "Save";
             this.btnCNQSave.UseVisualStyleBackColor = false;
+            this.btnCNQSave.Click += new System.EventHandler(this.btnCNQSave_Click);
             // 
             // CreateNewQuiz
             // 
